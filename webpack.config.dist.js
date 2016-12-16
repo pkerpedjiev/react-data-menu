@@ -9,11 +9,9 @@ module.exports = {
   },
   output: {
     path: __dirname + "/lib",
-    filename: './react-data-menu.js',
-    sourceMapFilename: './react-data-menu.js.map',
-    devtoolModuleFilenameTemplate: '../[resource-path]',
-    libraryTarget: "umd",
-    library: "ReactLiberator"
+    filename: '[name].js',
+    libraryTarget: 'umd',
+    library: '[name]'
   },
   externals: {
     'react': {
