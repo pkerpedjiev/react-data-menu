@@ -2,10 +2,10 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-  context: __dirname,
+  context: __dirname + '/src',
   devtool: 'source-map',
   entry: {
-    'react-data-menu': './index.js'
+    'react-data-menu': './module.js'
   },
   output: {
     path: __dirname + "/dist",
