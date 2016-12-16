@@ -2,7 +2,7 @@
   "name": "react-data-menu",
   "version": "1.0.12",
   "description": "Smart data-driven menu rendered in an overlay",
-  "main": "dist/react-data-menu.js",
+  "main": "lib/react-data-menu.js",
   "scripts": {
     "hot": "node hotServer.js",
     "start": "npm run hot",

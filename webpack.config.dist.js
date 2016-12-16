@@ -8,7 +8,7 @@ module.exports = {
     'react-data-menu': './module.js'
   },
   output: {
-    path: __dirname + "/dist",
+    path: __dirname + "/lib",
     filename: './react-data-menu.js',
     sourceMapFilename: './react-data-menu.js.map',
     devtoolModuleFilenameTemplate: '../[resource-path]',
